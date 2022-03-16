@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&family=Roboto:wght@100;300;400;700&display=swap');
+:root{
+    --primary-color:#000;
+    --Secondary-Color:#fff;
+    --bar-height:72px;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+
+}
+.HeroSub{
+    font-family: 'Exo', sans-serif;
+    font-size:  100px;
+}
+.HeroText{
+    animation: SlideUP 5s linear 0.2s ;
+    @keyframes SlideUp {
+
+        from{
+            opacity: 0%;
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+    
+}
+
+.MyName{
+font-weight: 200;
+font-family: 'Roboto', sans-serif;
+}
+
+.hero_1{
+    height: 100Vh;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
